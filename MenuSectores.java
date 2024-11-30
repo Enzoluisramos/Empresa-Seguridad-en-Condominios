@@ -1,8 +1,12 @@
 import java.util.Scanner;
-class MenuSectores {
-    public static void main(String[] args) {
+
+
+public class MenuSectores {
+   
         Scanner scanner = new Scanner(System.in);
         int opcion;
+
+        public void SECTORESDELADMIN(){
         do {
             System.out.println("=== MENÚ DE OPCIONES ===");
             System.out.println("1. Sector Seguridad");
@@ -30,9 +34,9 @@ class MenuSectores {
             }
             System.out.println();
         } while (opcion != 0);
-    }
 }
 
+}
   
 
 
