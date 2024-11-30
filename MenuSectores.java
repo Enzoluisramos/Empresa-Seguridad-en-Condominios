@@ -6,7 +6,7 @@ public class MenuSectores {
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
-        public void SECTORESDELADMIN(){
+        public void SECTORESDELUSER(){
         do {
             System.out.println("=== MENÚ DE OPCIONES ===");
             System.out.println("1. Sector Seguridad");
