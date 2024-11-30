@@ -8,7 +8,7 @@ public class main {
 
         Scanner scanner = new Scanner(System.in);
 
-        MenuSectores ADMINSECTOR = new MenuSectores();
+        MenuSectores USERSECTOR = new MenuSectores();
 
         ArrayList<usuario> USUARIOSREGISTRAR = new ArrayList<>();
         //------------------------------------------------------
@@ -75,7 +75,7 @@ public class main {
                 if(!ENCONTRADO){
                     System.out.println("USUARIO O CONTRASEÑA INCORRECTO");
                 }
-
+                USERSECTOR.SECTORESDELUSER();
                 break;
                 
             case 3:
@@ -97,7 +97,7 @@ public class main {
                 System.out.println("USUARIO O CONTRASEÑA DEL ADMINISTRADOR INCORRECTO.");
             }
 
-            ADMINSECTOR.SECTORESDELADMIN();
+            
 
             break;
             default:
