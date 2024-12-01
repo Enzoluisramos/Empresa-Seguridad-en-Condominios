@@ -69,13 +69,16 @@ public class main {
                  if (usuarioCompleto.OBTENERuser().equals(USERREGISTRADO) && usuarioCompleto.OBTENERpassword().equals(CONTRAREGISTRADO)) {
                     System.out.println("BIENVENIDO:" + USERREGISTRADO);
                     ENCONTRADO = true;
-                    break;                    
+                    USERSECTOR.SECTORESDELUSER();
+                    break;
+                    
                  }   
                 }
                 if(!ENCONTRADO){
                     System.out.println("USUARIO O CONTRASEÑA INCORRECTO");
                 }
-                USERSECTOR.SECTORESDELUSER();
+                
+                
                 break;
                 
             case 3:
