@@ -2,9 +2,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.swing.undo.UndoableEditSupport;
-
-
 public class main {
     public static void main(String[] args) {
 
@@ -71,7 +68,7 @@ public class main {
                  if (usuarioCompleto.OBTENERuser().equals(USERREGISTRADO) && usuarioCompleto.OBTENERpassword().equals(CONTRAREGISTRADO)) {
                     System.out.println("BIENVENIDO:" + USERREGISTRADO);
                     ENCONTRADO = true;
-                    System.out.println("-------------------------------");
+                    
                     USERSECTOR.SECTORESDELUSER(); 
                     break;
                     
