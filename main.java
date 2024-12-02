@@ -93,6 +93,9 @@ public class main {
                 if(ADMINIS.OBTENER_adminUSER().equals(adminUser) && ADMINIS.OBTENER_ADMINpassword().equals(adminPassword)) {
                     System.out.println("BIENVENIDO ADMINISTRADOR: " + adminUser);
                     admin_encontrado = true;
+
+                    INTERFAZ_ADMIN modoAdmin = new INTERFAZ_ADMIN(USUARIOSREGISTRAR);
+                    modoAdmin.MOSTRANDO_MENU();
                     break;
                 }
             }
