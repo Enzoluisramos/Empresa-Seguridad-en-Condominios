@@ -13,7 +13,7 @@ public class INTERFAZ_ADMIN {
         while (CONTINUAR_ADMIN) {
             System.out.println("--- MENÚ ADMINISTRADOR ---");
             System.out.println("1. Mostrar usuarios registrados.");
-            System.out.println("2. Agregar nueva opción agregan aqui team. ");
+            System.out.println("2. NOMBRES DE LOS ADMINISTRADORES OFICIALES. ");
             System.out.println("3. Salir. ");
             System.out.println(".SELECCIONE UNA OPCIÓN. ");
             int opciones_ADMIN = scanner.nextInt();
@@ -24,7 +24,11 @@ public class INTERFAZ_ADMIN {
                     break;
                 case 2: 
 
-                    System.out.println("FALTA.");
+                    System.out.println("NOMBRE DE LOS ADMINISTRADORES:");
+                    System.out.println("Antonio Morales");
+                    System.out.println("Enzo Ramos");
+                    System.out.println("Joaquin Garcia");
+                    System.out.println("Gabriel Saenz");
                     break;
                 case 3:
                 CONTINUAR_ADMIN = false; // rompe el bucle
